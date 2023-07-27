@@ -1,0 +1,40 @@
+Some tests:
+
+- print out words in alphabetical order
+- don't double count a line if it has the same word twice
+
+same word same word same word
+
+- filter out articles (a, an, the)
+
+a an the 
+a an the 
+the a an
+
+- ignore non-alphanumeric characters
+
+82375 #(*$ * )@( [] || :;;
+
+- recognize that words are the same even if they are capitalized differently
+
+capitalize 
+CAPitaLIZE 
+CaPiTaLiZe 
+CAPITALIZE
+
+- hold up to 10 line numbers for a word
+
+MAXLINES
+MAXLINES
+MAXLINES
+MAXLINES
+MAXLINES
+MAXLINES
+MAXLINES
+MAXLINES
+MAXLINES
+MAXLINES
+
+- handle apostophes
+
+can't won't shouldn't haven't 'till nothin'
